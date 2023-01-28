@@ -16,9 +16,9 @@ const promise = new Promise((resolve, reject) => {
 const anotherPromise = async () => {
   try {
     const result = await promise;
-    console.log(`Yay! Promise resolved with response:${result}`);
+    console.log(`Yay! Promise resolved with response: ${result}`);
   } catch (error) {
-    console.log(`Boo. Promise reeejected with response:  ${error}`);
+    console.log(`Boo. Promise reeejected with response: ${error}`);
   }
 };
 anotherPromise();
