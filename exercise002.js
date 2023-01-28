@@ -1,6 +1,6 @@
 import fetch from "node-fetch";
 
-const jsonTypicode = "https://jsonplaceholder.typicode.com/todos/1";
+const jsonTypicode = "https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita";
 
 async function fetchData(apiEndPoint) {
   try {
